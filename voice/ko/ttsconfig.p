@@ -27,13 +27,13 @@ language('ko').
 
 % ROUTE CALCULATED
 string('route_is.ogg', '총 거리는 ').
-string('route_calculate.ogg', '경로가 재탐색되었습니다. ').
+string('route_calculate.ogg', '새로운 경로가 재탐색되었습니다. ').
 string('distance.ogg', '거리는 ').
 string('is.ogg', '입니다 ').
 
 % LEFT/RIGHT
 string('prepare.ogg', '을 준비하세요 ').
-string('after.ogg', '앞에서 ').
+string('after.ogg', '입니다 ').
 string('have.ogg', '하세요 ').
 
 string('left.ogg', '좌회전').
@@ -58,7 +58,7 @@ string('roundabout.ogg', ' 앞에서 로타리에 진입하시고 ').
 string('then.ogg', ', 다음은 ').
 string('and.ogg', '과 ').
 string('take.ogg', ' 출구로 나가세요 ').
-%string('exit.ogg', ' ').
+%string('exit.ogg', ' 탈출 ').
 
 string('1st.ogg', '첫번째 ').
 string('2nd.ogg', '두번째 ').
@@ -85,17 +85,17 @@ string('follow.ogg', ' 직진하세요 ').
 % ARRIVE
 string('and_arrive_destination.ogg', ' 다음은 목적지에 도착합니다 ').
 string('reached_destination.ogg', '목적지에 도착하였습니다 ').
-string('and_arrive_intermediate.ogg', '당신을 통해 지점에 도착 ').
-string('reached_intermediate.ogg', '당신은 당신을 통해 지점에 도달했습니다').
+string('and_arrive_intermediate.ogg', '다음은 경유지 도착합니다 ').
+string('reached_intermediate.ogg', '경유지에 도착하였습니다').
 string('and_arrive_waypoint.ogg', '당신을 통해 지점에 도착 GPX').
 string('reached_waypoint.ogg', '당신은 당신을 통해 지점에 도달했습니다 GPX').
 
 % OTHER PROMPTS
-string('attention.ogg', '주의, ').
+string('attention.ogg', '주의하세요 ').
 string('location_lost.ogg', 'g p s 신호가 없습니다 ').
-string('location_recovered.ogg', 'g p s 신호는 복구').
-string('off_route.ogg', '당신은 경로에서 이탈했다 ').
-string('exceed_limit.ogg', '당신은 속도 제한을 초과하는 ').
+string('location_recovered.ogg', 'g p s 신호가 복구되엇습니다 ').
+string('off_route.ogg', '당신은 경로에서 이탈했습니다 ').
+string('exceed_limit.ogg', '당신은 속도 제한을 초과하였습니다 ').
 
 % STREET NAME GRAMMAR
 string('onto.ogg', '에 ').
@@ -117,7 +117,7 @@ string('miles.ogg', '마일 ').
 string('yards.ogg', '미터 ').
 
 % TIME SUPPORT
-string('time.ogg', '시간이 필요 ').
+string('time.ogg', '시간이 필요합니다 ').
 string('1_hour.ogg', '일시간 ').
 string('hours.ogg', '시간 ').
 string('less_a_minute.ogg', '이하의 분 ').
