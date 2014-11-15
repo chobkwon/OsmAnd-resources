@@ -38,12 +38,12 @@ string('have.ogg', '하세요 ').
 
 string('left.ogg', '좌회전').
 string('left_sh.ogg', '크게 좌회전').
-string('left_sl.ogg', '좌회전').
+string('left_sl.ogg', '부드럽게 좌회전').
 string('right.ogg', '우회전').
 string('right_sh.ogg', '크게 우회전').
-string('right_sl.ogg', '우회전').
-string('left_keep.ogg', '왼쪽에서 계속 가세요 ').
-string('right_keep.ogg', '오른쪽에서 계속 가세요 ').
+string('right_sl.ogg', '부드럽게 우회전').
+string('left_keep.ogg', '왼쪽으로 계속 가세요 ').
+string('right_keep.ogg', '오른쪽으로 계속 가세요 ').
 % if needed, "left/right_bear.ogg" can be defined here also. "... (then) (bear_left/right)" is used in pre-announcements to indicate the direction of a successive turn AFTER the next turn.
 
 % U-TURNS
@@ -86,7 +86,7 @@ string('follow.ogg', ' 직진하세요 ').
 string('and_arrive_destination.ogg', ' 다음은 목적지에 도착합니다 ').
 string('reached_destination.ogg', '목적지에 도착하였습니다 ').
 string('and_arrive_intermediate.ogg', '지점에 도착합니다 ').
-string('reached_intermediate.ogg', '지점에 도착했습니다').
+string('reached_intermediate.ogg', '지점에 도착하였습니다').
 string('and_arrive_waypoint.ogg', '다음은 지점을 통과 합니다').
 string('reached_waypoint.ogg', '지점을 통과 중 입니다').
 
@@ -94,7 +94,7 @@ string('reached_waypoint.ogg', '지점을 통과 중 입니다').
 string('attention.ogg', '과속을 주의 하세요, ').
 string('location_lost.ogg', 'g p s 신호가 없습니다 ').
 string('location_recovered.ogg', 'g p s 신호가 복구 되었습니다').
-string('off_route.ogg', '경로에서 이탈했습니다 ').
+string('off_route.ogg', '경로에서 이탈하였습니다 ').
 string('exceed_limit.ogg', '제한 속도를 초과하고 있습니다 ').
 
 % STREET NAME GRAMMAR
@@ -117,7 +117,7 @@ string('miles.ogg', '마일 ').
 string('yards.ogg', '미터 ').
 
 % TIME SUPPORT
-string('time.ogg', '시간이 필요 ').
+string('time.ogg', '시간이 필요 합니다 ').
 string('1_hour.ogg', '한 시간 ').
 string('hours.ogg', '시간 ').
 string('less_a_minute.ogg', '이하의 분 ').
